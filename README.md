@@ -2,26 +2,50 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.7.
 
-## Development server
+## TO RUN THE PROJECT, FOLLOW THE INSTRUCTIONS
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+### Setup the Stencil project
 
-## Code scaffolding
+First Clone the Repository [custom-input-demo](https://github.com/MuhammadMoiz200099/custom-input-demo) and run the command:
+```bash
+  npm install
+```
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Once the node_modules installed successfully hit the command:
+```bash
+  npm run build
+```
+then it should create your project build
 
-## Build
+Once the build is created successfully hit the command:
+```bash
+  npm link
+```
+then it should link/add the repository to your local node_modeules globally
+It should show the message something like:
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
 
-## Running unit tests
+### Now, Setup the angular project 
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Once you successfully link your stencil project to your local node_modeules globally.
+Now, Clone this angular project [custom-input-demo-angular](https://github.com/MuhammadMoiz200099/custom-input-demo-angular) and run the command:
+```bash
+  npm install
+```
 
-## Running end-to-end tests
+After the node_modules installed successfully run the command:
+```bash
+  npm link custom-input-demo
+```
+this going to link your stencil web component to your angular project.
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+Once everything runs successfully, you're ready to serve your project, using a simple command
+```bash
+  npm start
+```
 
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+Email me on muhmmadmoiz0087@gmail.com
