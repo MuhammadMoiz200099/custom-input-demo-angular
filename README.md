@@ -21,7 +21,7 @@ then it should create your project build, Once the build is created successfully
 ```
 then it should link/add the repository to your local global node_modules, 
 it should show the message something like:
-
+![Stencil_link_image](https://github.com/MuhammadMoiz200099/custom-input-demo-angular/blob/master/screenshots/link.png)
 
 ### Now, Setup the angular project 
 
@@ -36,7 +36,7 @@ After the node_modules installed successfully run the command:
   npm link custom-input-demo
 ```
 this going to link your stencil web component to your angular project, it should show the message something like: 
-
+![Stencil_link_image](https://github.com/MuhammadMoiz200099/custom-input-demo-angular/blob/master/screenshots/link_angular.png)
 
 Once everything runs successfully, you're ready to serve your project, using a simple command
 ```bash
