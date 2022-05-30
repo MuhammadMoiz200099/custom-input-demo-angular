@@ -6,10 +6,11 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  public pattern = "(https|http|ftp):\/\/|(\w+\.|www.|(\w+:))(\w+)|(\/|-|_|/+|%|&|/+%)(\w+)|\/?\w+|=\w+|(\/)|(\.\w+)";
+  // you can put your custom pattern otherwise it will be using the default one
+  public pattern = "";
 
   public onUserInput(event: any) {
-    console.log(event.target.value)
+    console.log(event)
   }
 
 }
