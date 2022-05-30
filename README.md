@@ -4,7 +4,19 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ## TO RUN THE PROJECT, FOLLOW THE INSTRUCTIONS
 
-### Setup the Stencil project
+### You can simply run the project using these simple commands:
+
+Clone this angular project [custom-input-demo-angular](https://github.com/MuhammadMoiz200099/custom-input-demo-angular) and run the command:
+```bash
+  npm install
+```
+
+Once the node_modules installed successfully, you're ready to serve your project, using a simple command
+```bash
+  npm start
+```
+
+### If you want to run the project with local custom web(custom-input-stencil-demo) setup, follow the commands:
 
 First Clone the Repository [custom-input-demo](https://github.com/MuhammadMoiz200099/custom-input-demo) and run the command:
 ```bash

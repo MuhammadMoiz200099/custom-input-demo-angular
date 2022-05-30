@@ -4,7 +4,7 @@ import { platformBrowserDynamic } from '@angular/platform-browser-dynamic';
 import { AppModule } from './app/app.module';
 import { environment } from './environments/environment';
 
-import { defineCustomElements } from "custom-input-demo/loader";
+import { defineCustomElements } from "custom-input-stencil-demo/loader";
 
 if (environment.production) {
   enableProdMode();
