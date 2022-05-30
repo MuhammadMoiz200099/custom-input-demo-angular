@@ -33,7 +33,7 @@ then it should create your project build, Once the build is created successfully
 ```
 then it should link/add the repository to your local global node_modules.
 
-### Now, Setup the angular project 
+#### Now, Setup the angular project 
 
 Once you successfully link your stencil project to your local global node_modules.
 Now, Clone this angular project [custom-input-demo-angular](https://github.com/MuhammadMoiz200099/custom-input-demo-angular) and run the command:
